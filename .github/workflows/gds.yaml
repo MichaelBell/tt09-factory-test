@@ -17,6 +17,7 @@ jobs:
         uses: TinyTapeout/tt-gds-action@tt09
         with:
           flow: openlane2
+          tools-repo: 'MichaelBell/tt-support-tools'
 
   precheck:
     needs: gds
