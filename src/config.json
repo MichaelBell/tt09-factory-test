@@ -33,7 +33,8 @@
 
   "STD_CELL_LIBRARY": "sky130_fd_sc_hs",
   "FP_DEF_TEMPLATE": "src/tt_block_1x1_pg.def",
-  "RUN_MAGIC_DRC": 0,
+
+  "PNR_EXCLUDED_CELL_FILE": "src/drc_excluded.cells"
 
   "//": "Configuration docs: https://openlane.readthedocs.io/en/latest/reference/configuration.html",
 
